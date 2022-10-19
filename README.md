@@ -27,7 +27,9 @@ PROTOTYPE
 
 FACTORY
 >Provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created
-
+>
+> Suggests that u replace direct object construction calls with calls to a special factory method
+> >Objects returned by a factory method are called *products*
 
 ABSTRACT FACTORY
 >
